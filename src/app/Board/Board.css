@@ -1,0 +1,85 @@
+.board {
+    width: 800px;
+    height:800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin: auto;
+    border: 15px solid black;
+    border-radius: 40px;
+    position: relative;
+    top: 30px;
+    box-shadow: -10px 16px 0px 5px rgba(0,0,0,1);
+    flex-wrap: wrap;
+}
+
+
+
+.boxes {
+    width: 220px;
+    height: 210px;
+    top: 7px;
+    left: 3px;
+    gap: 0px;
+    border-radius: 16px ;
+    opacity: 0px;
+    background: #C9F9FC;
+    border: 10px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -3px 5px 0px 5px rgba(0,0,0,1);
+}
+
+.resetBtn {
+    width: 200px;
+    height: 90px;
+    position: absolute;
+    top: 327px;
+    right:75px ;
+    box-shadow: -4px 6px 0px 1px rgba(0,0,0,1);
+    border-radius: 16px;
+    border : solid 10px black;
+    /* font-family: Inter; */
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 43.57px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-color: #C9F9FC;
+}
+
+.undoBtn {
+    width: 200px;
+    height: 90px;
+    position: absolute;
+    top: 500px;
+    right:75px ;
+    box-shadow: -4px 6px 0px 1px rgba(0,0,0,1);
+    border-radius: 16px;
+    border : solid 10px black;
+    /* font-family: Inter; */
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 43.57px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-color: #FBB500;
+}
+
+
+.status {
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 43.57px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black;
+    padding: 30px;
+}
